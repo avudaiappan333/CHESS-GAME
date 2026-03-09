@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chess.css">
+    <script src="chess.js" defer></script>
+
+</head>
+<body>
+    <!-- <h1>PLAY CHESS</h1> -->
+     <span><h2>ALWAYS BE A KNIGHT</h2> </span>
+    
+     <div class="container" id="brd">
+    <div class="plrdts">
+       <div id="p1">PLAYER 1</div>   
+   </div>
+      <div class="boarde">
+      
+     <div class="box p1" data-row=0 data-column=0 id="a1">
+        <img src="IMAGES/rook w.png"  id="WR1">
+     </div>
+     <div class="box" data-row=1 data-column=0 id="a2">
+        <img src="IMAGES/soldier w.png "  id="WP1">
+
+     </div>
+     <div class="box" data-row=2 data-column=0 id="a3"></div>
+      <div class="box" data-row=3 data-column=0 id="a4"></div>
+      <div class="box" data-row=4 data-column=0 id="a5"></div>
+     <div class="box" data-row=5 data-column=0 id="a6"></div>
+     <div class="box" data-row=6 data-column=0 id="a7">
+        <img src="IMAGES/soldier b.png"  id="BP1">
+
+     </div>
+     <div class="box p1" data-row=7 data-column=0 id="a8">
+        <img src="IMAGES/rook b.png"  id="BR1">
+
+     </div>
+     </div>
+
+     <!-- -------------------------------------------- -->
+      <div class="board2">
+     <div class="box p1" data-row=0 data-column=1 id="b1">
+        <img src="IMAGES/horse w.png"  id="BH1">
+
+     </div>
+     <div class="box" data-row=1 data-column=1 id="b2">
+        <img src="IMAGES/soldier w.png"  id="WP2">
+
+     </div>
+     <div class="box" data-row=2 data-column=1 id="b3"></div>
+      <div class="box" data-row=3 data-column=1 id="b4"></div>
+      <div class="box" data-row=4 data-column=1 id="b5"></div>
+     <div class="box" data-row=5 data-column=1 id="b6"></div>
+     <div class="box" data-row=6 data-column=1 id="b7">
+        <img src="IMAGES/soldier b.png"  id="BP2">
+
+     </div>
+     <div class="box p1" data-row=7 data-column=1 id="b8">
+        <img src="IMAGES/horse b.png"  id="BH1">
+
+     </div>
+     </div>
+     <!-- --------------------------------------------- -->
+     <div class="board3"> 
+     <div class="box p1" data-column=2 data-row=0 id="c1">
+        <img src="IMAGES/bishop b.png" id="WB1">
+     </div>
+     <div class="box" data-column=2 data-row=1 id="c2">
+        <img src="IMAGES/soldier w.png" id="WP3">
+     </div>
+     <div class="box" data-column=2 data-row=2 id="c3"></div>
+      <div class="box"data-column=2 data-row=3 id="c4">
+             </div>
+      <div class="box"data-column=2 data-row=4 id="c5"></div>
+     <div class="box" data-column=2 data-row=5 id="c6"></div>
+     <div class="box"data-column=2 data-row=6 id="c7">
+        <img src="IMAGES/soldier b.png" id="BP3">
+     </div>
+     <div class="box p1" data-column=2 data-row=7 id="c8">
+        <img src="IMAGES/bishop w.png" id="BB1">
+     </div>
+     </div>
+     <!-- ----------------------------------- -->
+     <div class="board4">
+     <div class="box p1" data-column=3 data-row=0 id="d1"><img src="IMAGES/queen w.png" id="WQ"></div>
+     <div class="box" data-column=3 data-row=1 id="d2"><img src="IMAGES/soldier w.png" id="WP3"></div>
+     <div class="box" data-column=3 data-row=2 id="d3"></div>
+      <div class="box" data-column="3" data-row=3 id="d4"></div>
+      <div class="box" data-column=3 data-row=4 id="d5"></div>
+     <div class="box" data-column=3 data-row=5 id="d6"></div>
+     <div class="box" data-column=3 data-row=6 id="d7"><img src="IMAGES/soldier b.png" id="BP4"></div>
+     <div class="box p1" data-column=3 data-row=7 id="d8"><img src="IMAGES/queen b.png" id="BQ"></div>
+     </div>
+     <!-- ---------------------------------------- -->
+     <div class="board5">
+     <div class="box p1" data-column=4 data-row=0 id="e1"><img src="IMAGES/king w.png" id="WK"></div>
+     <div class="box" data-column=4 data-row=1 id="e2">
+      <img src="IMAGES/soldier w.png" id="WP5">
+   </div>
+     <div class="box" data-column=4 data-row=2 id="e3"></div>
+      <div class="box" data-column=4 data-row=3 id="e4"></div>
+      <div class="box" data-column=4 data-row=4 id="e5"></div>
+     <div class="box" data-column=4 data-row=5 id="e6"></div>
+     <div class="box" data-column=4 data-row=6 id="e7"><img src="IMAGES/soldier b.png" id="BP6"></div>
+     <div class="box p1" data-column=4 data-row=7 id="e8"><img src="IMAGES/king.png" id="BK"></div>
+     </div>
+
+    
+     <!-- ------------------------------------------ -->
+    <div class="board6">
+     <div class="box p1" data-column=5 data-row=0 id="f1"><img src="IMAGES/bishop b.png" id="WB2"></div>
+     <div class="box" data-column=5 data-row=1 id="f2"><img src="IMAGES/soldier w.png" id="WP6"></div>
+     <div class="box" data-column=5 data-row=2 id="f3"></div>
+      <div class="box" data-column=5 data-row=3 id="f4"></div>
+      <div class="box" data-column=5 data-row=4 id="f5"></div>
+     <div class="box" data-column=5 data-row=5 id="f6"></div>
+     <div class="box" data-column=5 data-row=6 id="f7"><img src="IMAGES/soldier b.png" id="BP6"></div>
+     <div class="box p1" data-column=5 data-row=7 id="f8"><img src="IMAGES/bishop w.png" id="BB2"></div>
+     </div>
+     <!-- ------------------------------------- -->
+     <div class="board7">
+     <div class="box p1" data-column=6 data-row=0 id="g1"><img src="IMAGES/horse w.png" id="WH2"></div>
+     <div class="box" data-column=6 data-row=1 id="g2"><img src="IMAGES/soldier w.png" id="WP7"></div>
+     <div class="box" data-column=6 data-row=2 id="g3"></div>
+      <div class="box" data-column=6 data-row=3 id="g4"></div>
+      <div class="box" data-column=6 data-row=4 id="g5"></div>
+     <div class="box" data-column=6 data-row=5 id="g6"></div>
+     <div class="box" data-column=6 data-row=6 id="g7"><img src="IMAGES/soldier B.png" id="WP7"></div>
+     <div class="box p1" data-column=6 data-row=7 id="g8"><img src="IMAGES/horse b.png" id="WH2"></div>
+     </div><!-- ------------------------------------------ -->
+      <div class="board8">
+              <div class="box" data-column=7 data-row=0 id="h1"><img src="IMAGES/rook W.png" id="WR2"></div>
+     <div class="box p1" data-column=7 data-row=1 id="h2"><img src="IMAGES/soldier w.png" id="WP8"></div>
+     <div class="box" data-column=7 data-row=2 id="h3"></div>
+      <div class="box" data-column=7 data-row=3 id="h4"></div>
+    <div class="box" data-column=7 data-row=4 id="h5"></div>
+     <div class="box" data-column=7 data-row=5 id="h6"></div>
+     <div class="box" data-column=7 data-row=6 id="h7"><img src="IMAGES/soldier b.png" id="WP8"></div>
+     <div class="box p1" data-column=7 data-row=7 id="h8"><img src="IMAGES/rook b.png" id="WR2"></div>
+    </div>
+    <div id="bgn">
+    <h1 id="bgnto">LET'S BEGIN TO </h1>
+   <button id="play">PLAY</button>
+    </div>
+      
+     <div class="plrdts">
+       <div id="p2">PLAYER 2 </div>   
+   </div>
+</div>
+</body>
+</html>

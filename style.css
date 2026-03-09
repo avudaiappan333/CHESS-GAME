@@ -1,0 +1,165 @@
+:root{
+    --first-color:#f53e3e;
+    --second-color:#f3fffa;
+}
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    background-color: black;  
+}
+.container{
+    height: 100vh;width:100vw;
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     
+} 
+#brd{
+    transition: transform 1s 1s;
+}
+.rotate{
+transform: rotate(180deg);
+}
+.rotate img{
+    transition: transform 1s 2s;
+transform: rotate(180deg);
+
+}
+span{
+     display: flex;
+    align-content: center;
+    justify-content: center;
+}
+h2{
+    color:rgb(255, 255, 255);
+    /* text-decoration: underline; */
+    border:2px solid;
+    width: max-content;
+    padding: 10px;
+    border-bottom-left-radius:20px;
+   
+    border-color:rgb(240, 184, 184);
+    /* background-color:rgb(231, 227, 227); */
+    border-top-right-radius:20px ;
+    text-shadow: 3px 3px 1px rgb(255, 4, 4);
+    text-align:center; 
+    word-spacing: 10px;
+    letter-spacing: 10px;
+}
+
+.selected{
+    /* --first-color:rgb(245, 245, 91);
+    --second-color:rgb(255, 255, 84);
+   transition:0.2s;*/
+ /* /  background-color: blue !important; */
+    cursor:pointer; 
+    opacity: 50%;
+} 
+.plrdts{
+    height: 500px;
+    width:250px;
+    /* border:2px solid white; */
+    display: flex;
+    /* flex-direction: column; */
+    align-items:flex-start;
+    
+}
+#p1,#p2{
+     color:rgb(255, 255, 255);
+     font-size: 32px;
+    text-shadow: 3px 3px 3px red;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    border:3px solid rgb(255, 153, 153);
+
+    background-color: rgb(0, 0, 0);
+    margin:10px;
+   padding:10px;
+
+}
+#p1{
+    border-bottom-right-radius: 30px;
+    justify-self:flex-end;
+
+}
+#p2{
+border-bottom-left-radius: 30px;
+align-self: flex-end;
+}
+#play{
+ border: 2px solid rgb(255, 255, 255);
+ background-color:rgba(255, 31, 31, 0.822);
+ color:rgb(255, 255, 255);
+ text-shadow: 3px 3px 3px rgb(0, 0, 0);
+ font-weight: bold;
+ font-size: 25px;
+ letter-spacing: 3px;
+ height:50px;
+ width:220px;
+ float: right;
+ 
+}#play:hover{
+    color: rgb(238, 238, 238);
+ border-top-left-radius:20px;
+ border-bottom-right-radius: 20px;}
+#bgn{
+color: white;
+letter-spacing: 3px;
+ margin-left: 150px;
+margin-bottom: 200px;
+padding: 20px;
+line-height: 50px;
+text-shadow: 2px 2px 2px red;
+}
+   img{
+    background: transparent;
+    background-size: contain;
+    height:max-content;
+   }
+.box{
+    height: 4rem;
+    width:4rem;
+    border:2px solid black;  
+}
+.boarde .box:nth-child(even){
+    background-color:var(--first-color);
+}.boarde .box:nth-child(odd){
+    background-color:var(--second-color);
+}
+.board2 .box:nth-child(odd){
+    background-color: var(--first-color);
+}.board3 .box:nth-child(even){
+    background-color: var(--first-color)
+}
+.board2 .box:nth-child(even){
+ background-color:var(--second-color);
+}
+.board3 .box:nth-child(odd){
+    background-color:var(--second-color);
+}
+.board4 .box:nth-child(odd){
+    background-color:var(--first-color)
+}.board4 .box:nth-child(even){
+    background-color:var(--second-color);
+}
+.board5 .box:nth-child(even){
+    background-color:var(--first-color);
+}.board5 .box:nth-child(odd){
+    background-color:var(--second-color);
+}
+.board6 .box:nth-child(odd){
+    background-color:var(--first-color);
+}.board6 .box:nth-child(even){
+    background-color:var(--second-color);
+}
+.board7 .box:nth-child(even){
+    background-color:var(--first-color);
+}.board7 .box:nth-child(odd){
+    background-color:var(--second-color);
+}
+.board8 .box:nth-child(odd){
+    background-color:var(--first-color);
+}.board8 .box:nth-child(even){
+    background-color:var(--second-color)
+}
