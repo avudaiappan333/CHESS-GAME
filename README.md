@@ -14,9 +14,9 @@ This is a chess game created using HTML, CSS, and JavaScript.
 - JavaScript
 
 3. How to Run
-1. Download the project.
-2. Open the folder.
-3. Open index.html in a browser.
+. Download the project.
+. Open the folder.
+. Open index.html in a browser.
 
 5 Project Structure
 chess-game
