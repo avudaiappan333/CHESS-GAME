@@ -1,6 +1,6 @@
 # Chess Game ♟️
 
-![Chess Game](Images/Images/Chess-board.png)
+![Chess Game](images/chess-board.png)
 
 This is a simple **Chess Game** created using **HTML, CSS, and JavaScript**.
 The project demonstrates chess board creation, piece movement logic, and basic check detection.
