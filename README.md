@@ -7,16 +7,8 @@ The project demonstrates chess board creation, piece movement logic, and basic c
 
 ---
 
-## 1. Features
 
-* Chess board interface
-* Piece movement logic
-* Turn-based gameplay
-* Basic check detection
-
----
-
-## 2. Technologies Used
+## 1. Technologies Used
 
 * HTML
 * CSS
@@ -24,7 +16,7 @@ The project demonstrates chess board creation, piece movement logic, and basic c
 
 ---
 
-## 3. How to Run
+## 2. How to Run
 
 1. Download or clone the repository
 2. Open the project folder
@@ -32,7 +24,7 @@ The project demonstrates chess board creation, piece movement logic, and basic c
 
 ---
 
-## 4. Project Structure
+## 3. Project Structure
 
 ```
 chess-game
@@ -47,7 +39,7 @@ chess-game
 
 ---
 
-## 5. Current Focus in
+## 4. Current Focus in
 
 * Checkmate detection
 * Computer opponent (Without AI)
