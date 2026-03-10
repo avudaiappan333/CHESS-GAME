@@ -39,7 +39,7 @@ chess-game
 
 ---
 
-## 4. Current Focus in
+## 4. Currently Focused on
 
 * Checkmate detection
 * Computer opponent (Without AI)
